@@ -27,7 +27,7 @@ const ContactForm = () => {
 
   return (
     <form
-      className="bg-teal-50 shadow-md rounded p-3 flex flex-col gap-2"
+      className="bg-teal-50 shadow-md rounded p-3 flex flex-col gap-3"
       onSubmit={handleSubmit}
     >
       <h1 className="text-center text-black font-bold">Agregar Contacto</h1>

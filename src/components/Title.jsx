@@ -3,7 +3,9 @@ import React from 'react';
 function Title() {
   return (
     <>
-      <img src="'../../public/logo.png" alt="Logo Contact"  className="mx-auto my-auto"/>
+      <h1 className="text-center font-bold text-3xl text-cyan-900">Contact App</h1>
+
+      {/*<img src="'../../public/logo.png" alt="Logo Contact"  className="mx-auto my-auto"/>*/}
 
       <p className="text-center text-italic">Conectando personas</p>
     </>
