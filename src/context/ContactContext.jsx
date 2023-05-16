@@ -5,8 +5,12 @@ export const ContactContext = createContext();
 export const ContactContextProvider = (props) => {
   const [contacts, setContacts] = useState([]);
 
-  const uri = 'https://banckend-contacts.azurewebsites.net/api/contacts/';
+  //Local
+  //const uri = 'http://localhost:5000/api/contacts/';
 
+  //Azure
+  const uri = 'https://b-contact-app.azurewebsites.net/api/contacts/';
+  
   const fetchData = async () => {
     let res = await fetch(uri);
     let data = await res.json();
